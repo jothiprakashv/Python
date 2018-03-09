@@ -15,4 +15,9 @@ class Person():
 class Employee():
     def __init__(self,empid,dept,doj,designation,salary):
         self.__empid=empid
-        self.
+        self.__dept=dept
+        self.__doj=doj
+        self.__designation=designation
+        self.__salary=salary
+
+

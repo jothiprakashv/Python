@@ -1,4 +1,5 @@
-class MyClass:
+class MethodTypes:
+
     def __method(self):
         return 'instance method called', self
 
@@ -14,7 +15,7 @@ class MyClass:
         return 'static method called'
 
 
-m=MyClass()
+m=MethodTypes()
 print(m.method1())
-print(MyClass.method2())
-print(MyClass.method3())
+print(MethodTypes.method2())
+print(MethodTypes.method3())

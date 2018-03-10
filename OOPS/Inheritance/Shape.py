@@ -45,7 +45,7 @@ r=Rectangle(4,5)
 s=r
 print(s.area())
 
-#checking is 's' is an instance of class Rectangle (sub class) and Shape (super class)
+#checking if 's' is an instance of class Rectangle (sub class) and Shape (super class)
 print(isinstance(s,Rectangle))
 print(isinstance(s,Shape))
 

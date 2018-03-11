@@ -1,3 +1,5 @@
+"""This script demonstrates the Has-A relationship"""
+
 class Learner:
     def __init__(self):
         self.classes = []

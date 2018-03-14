@@ -3,7 +3,7 @@ con=cx_Oracle.connect("admin/admin@XE")
 
 cur=con.cursor()
 
-cur.execute("""insert into myemployee values(1001,'Ramesh','Accounts','Manager',50250.00)""")
+cur.execute("""delete from myemployee where empid=:1""",(1001,))
 
 con.commit()
 

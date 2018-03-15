@@ -6,4 +6,12 @@
 #### Inheritance
 #### Polymorphism
 
-# **Python Database Connectivity**
+# **Python - Oracle Database Connectivity**
+#### Connect
+#### Insert
+#### Update
+#### Delete
+#### Fetch
+#### Stored Procedures
+#### Stored Functions
+#### TCL Statements

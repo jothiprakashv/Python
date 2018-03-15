@@ -23,6 +23,11 @@ cur.arraysize=3
 # fetch specified no. of records
 print(cur.fetchmany())
 
+cur.execute("select * from customerdetails order by custid")
+# row count
+print(cur.fetchone())
+
+
 con.commit()
 
 con.close()
